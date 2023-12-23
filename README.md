@@ -6,31 +6,31 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-import the sys.
+Start the program.
 ### Step 2: 
-Open the file as f1.
+Give the input string.
 ### Step 3: 
-read the file using read() and assign to the variable data.
+Print the original string.
 ### Step 4:  
-split the data(data.split()).
+using len(test_string.split()) get the result.
 ### Step 5: 
-Print the word count using len(word).
+Print the word count.
 ### Step 6: 
-Close the file.
+End the program.
 ## PROGRAM:
 ```PYTHON
 #python program for word count
-#developed by : NIKSHITHA G
+#developed by: NIKSHITHA G
 #reference number: 23007784
-import sys
-f1=open(sys.argv[0])
-data=f1.read()
-word=data.split()
-print("The word count is",len(word))
-f1.close()
+test_string = "python program in linear algebra"
+print ("The original string is : " ,test_string)
+
+res = len(test_string.split())
+
+print ("The number of words in string are : ",str(res))
 ```
 
 ### OUTPUT:
-![Alt text](<word count.png>)
+![Alt text](<word count (2).png>)
 ## RESULT:
 Thus the program is written to find the word count from a text.
